@@ -21,6 +21,7 @@ public class Client implements Serializable {
 	private String cpf;
 	private Double income;
 	private Instant birthDate;
+	private Integer children;
 	
 	
 	public Client() {		
@@ -73,6 +74,15 @@ public class Client implements Serializable {
 	public void setBirthDate(Instant birthDate) {
 		this.birthDate = birthDate;
 	}
+	
+	public Integer getChildren() {
+		return children;
+	}
+
+	public void setChildren(Integer children) {
+		this.children = children;
+	}
+	
 
 	@Override
 	public int hashCode() {
@@ -98,6 +108,7 @@ public class Client implements Serializable {
 			return false;
 		return true;
 	}
+
 	
 	
 	

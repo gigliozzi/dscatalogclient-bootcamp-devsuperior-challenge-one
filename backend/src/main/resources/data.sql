@@ -1,3 +1,3 @@
-INSERT INTO TB_CLIENT (name,cpf,income,birth_date) VALUES ('Marlene Vieira','1234567890','12000.00','1994-11-05 11:15:30');
-INSERT INTO TB_CLIENT (name,cpf,income,birth_date) VALUES ('Ilene Vieira','1234567890','10000.00','1994-11-05 11:15:30');
-INSERT INTO TB_CLIENT (name,cpf,income,birth_date) VALUES ('Sebastião Paulo','1234567890','9000.00','1994-11-05 11:15:30');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Marlene Souza','1234567890','12000.00','1972-07-12 15:15:40','0');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Ilene Vieira','1234567890','10000.00','1978-08-31 12:00:50','2');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Sebastião Paulo','1234567890','9000.00','1959-05-05 00:22:50','1');
